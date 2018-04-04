@@ -76,7 +76,7 @@ ins {
 a {
   text-decoration: none;
   color: #0093c4;
-  border-bottom: 0.05263157895em dotted;
+  border-bottom: 0.05263157895em solid;
 }
 .preview a {
   color: #FFCE0B;
@@ -123,7 +123,7 @@ h2 {
 h3 {
   text-transform: uppercase;
   font-weight: bold;
-  background-color: #93A341;
+  background-color: #4fc3f7;
   padding: 0.5em 0 0.5em 0.3em;
   margin-bottom: 0.2em;
 }
@@ -136,6 +136,13 @@ h4 {
 h4 {
   text-transform: none;
   padding-bottom: 0.6315789474em;
+}
+.description, .goals, .deliverables, .requirements{
+  padding-top: 1em; /* 19px */
+  padding-left: 1.777em; /* 33.761px @ 19px / 1.333 ratio */
+}
+#spacing{
+  padding-left: 1.333em; /* 25.327px @ 19px / 1.333 ratio */
 }
 
 /* ========== Layout ========== */
