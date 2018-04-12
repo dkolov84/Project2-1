@@ -53,11 +53,12 @@ html {
   padding: 0.75em 9.2308%; /* 12px @ 16px/em; 60px / 650px*/
   padding-top: 0;
   background-color: #4C5D6F;
-  /* color: #59453C; */
+  color: #59453C;
 }
 body {
   font-size: 1.1875em;         /* ~ 19px base font size */
   line-height: 1.2631578947em; /* ~ 24px base line height */
+  background-color: #8bf6ff;
 }
 b,
 strong {
@@ -72,18 +73,10 @@ ins {
   text-decoration: none;
 }
 /* Links */
-h3 a {
-  text-decoration: none;
-  color: #C0C0C0;
-  border-bottom: 0.05263157895em solid;
-}
 a {
   text-decoration: none;
-  border-bottom: 0.05263157895em dotted;
-  color: #9E9E9E;
-}
-ul a {
-  color: #000050;
+  color: #0093c4;
+  border-bottom: 0.05263157895em solid;
 }
 .preview a {
   color: #FFCE0B;
@@ -130,7 +123,7 @@ h2 {
 h3 {
   text-transform: uppercase;
   font-weight: bold;
-  background-color: #313D4B;
+  background-color: #4fc3f7;
   padding: 0.5em 0 0.5em 0.3em;
   margin-bottom: 0.2em;
 }
@@ -152,12 +145,11 @@ h4 {
   padding-left: 1.333em; /* 25.327px @ 19px / 1.333 ratio */
 }
 
-
 /* ========== Layout ========== */
 
 html {
   /* Border for the nav to sit on */
-  border-top: 2.6875em solid #313D4B; /* ~ 43px @ 16px/em | 43 = 12 + 19 + 12 from nav */
+  border-top: 2.6875em solid #4fc3f7; /* ~ 43px @ 16px/em | 43 = 12 + 19 + 12 from nav */
 }
 nav {
   position: absolute;
@@ -184,15 +176,15 @@ small,
 .tagline,
 .fineprint,
 .button {
-  font-weight: 500;
-  color: #000;
+  font-weight: 200;
+  color: #777;
   display: block;
 }
 .preview small {
-  color: #000;
+  color: #555;
 }
 .assigned small {
-  color: #000;
+  color: #555;
 }
 .label .button {
   font-size: 0.744018483em; /* ~ 19px @ 25.537px/em */
@@ -208,7 +200,7 @@ nav {
 }
 .nav li {
   float: left;
-  width: 25%;
+  width: 20%;
   list-style-type: none;
   padding-bottom: 0;
 }
@@ -217,8 +209,8 @@ nav {
   text-align: center;
   line-height: 1;
   padding: 0.6315789474em 0.3157894737em; /* ~ 12px 6px @ 19px/em */
-  color: #C0C0C0;
-  background-color: #313D4B;
+  color: #333;
+  background-color: #4fc3f7;
   border-bottom: 0;
 }
 
@@ -226,7 +218,7 @@ nav {
 #projects #nav-pro a,
 #policies #nav-pol a,
 #due_date #nav-dat a {
-  background-color: #4C5D6F;
+  background-color: #FFCE0B;
 }
 
 /* Calendar */
@@ -326,7 +318,7 @@ table, th, td {
 	padding: 0px 10px;
 }
 .tablehead {
-	background-color: #4C5D6F;
+	background-color: #4fc3f7;
 	text-align: center;
   font-weight: 700;
 }
@@ -363,7 +355,7 @@ td {
   width: 120px;
 }
 .redfont {
-  color: red;
+	color: red;
 }
 .darkredfont {
   color: #d70000;
