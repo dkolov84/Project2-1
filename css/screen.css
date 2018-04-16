@@ -217,7 +217,8 @@ nav {
 #calendar #nav-cal a,
 #projects #nav-pro a,
 #policies #nav-pol a,
-#due_date #nav-dat a {
+#duedates #nav-due a,
+#link #nav-lnk a {
   background-color: #FFCE0B;
 }
 
