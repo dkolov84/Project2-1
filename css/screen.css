@@ -50,9 +50,9 @@ summary {
 
 html {
   font-family: "Depot New W00", Helvetica, Arial, sans-serif;
-  padding: 0.75em 9.2308%; /* 12px @ 16px/em; 60px / 650px*/
+  padding-left: 0.422em; /* 8px @ 19px / 1.333 ratio */
+  padding-right: 0.422em; /* 8px @ 19px / 1.333 ratio */
   padding-top: 0;
-  background-color: #4C5D6F;
   color: #59453C;
 }
 body {
