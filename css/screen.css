@@ -503,3 +503,6 @@ td {
     display: flex; /* My life for element/container queries...*/
   }
 }
+.panel-title > .small, .panel-title > .small > a, .panel-title > a, .panel-title > small, .panel-title > small > a {
+    color: inherit;
+}
