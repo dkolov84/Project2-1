@@ -177,11 +177,13 @@ nav {
 .accordion ul {
     list-style:none;
     margin:0;
-    padding:0;    
+    padding:0; 
+    line-height: 100%;
 }
 .accordion li {
     margin:0;
     padding:0;
+    line-height: 100%;
 }
 .accordion [type=radio], .accordion [type=checkbox] {
     display:none;
