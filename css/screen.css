@@ -167,7 +167,7 @@ nav {
 .accordion {
     font-family:Arial, Helvetica, sans-serif; 
     margin:0 auto;
-    font-size:14px;
+    font-size:0.875em;
     border:1px solid #542437;
     border-radius:10px;
     width:90%;
