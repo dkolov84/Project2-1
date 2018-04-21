@@ -163,7 +163,7 @@ nav {
 }
 
 /* ========== Modules ========== */
-/* Accordion for Sylabus*/
+/* Accordion for Syllabus*/
 .accordion {
     background-color: #eee;
     color: #444;
@@ -229,11 +229,11 @@ nav {
   padding-bottom: 0;
 }
 .nav a {
-  font-size: 0.6315789474em;
+  font-size: 0.8315789474em;
   display: block;
   text-align: center;
   line-height: 1;
-  padding: 0.3157894737em 0.3157894737em; /* ~ 12px 6px @ 19px/em */
+  padding: 0.2157894737em 0.2157894737em; /* ~ 12px 6px @ 19px/em */
   color: #333;
   background-color: #4fc3f7;
   border-bottom: 0;
