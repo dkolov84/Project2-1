@@ -170,7 +170,7 @@ nav {
     font-size:0.875em;
     border:1px solid #542437;
     border-radius:10px;
-    width:90%;
+   /* width:90%;*/
     padding:10px;
     background:#fff;
 }
@@ -215,6 +215,7 @@ nav {
 .accordion p {
     color:#333;
     margin:0 0 10px;
+    padding:0 0 10px;
 }
 .accordion h3 {
     color:#542437;
