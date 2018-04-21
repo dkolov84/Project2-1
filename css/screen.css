@@ -364,7 +364,7 @@ tr .secondrow {
 	text-align: left;
 }
 td a {
-	font-weight: 1.1875em;
+	font-weight: 500;
 	text-align: center;
 }
 td {
@@ -531,6 +531,5 @@ td {
 .panel-title > .small, .panel-title > .small > a, .panel-title > a, .panel-title > small, .panel-title > small > a {
     color: inherit;
 }
-@media only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px)  {
+
 
