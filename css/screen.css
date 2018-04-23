@@ -438,6 +438,7 @@ td {
 .alignleft {
 	text-align: left;
   padding-top: 5px;
+  padding-right: 2%;
 }
 .short {
   width: 120px;
