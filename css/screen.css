@@ -96,7 +96,8 @@ ul > li {
 }
 ol > li {
   list-style-type: decimal;
-  margin-left: 1em;
+  /*margin-left: 1em;*/
+  margin-right: 5px;
 }
 li ul,
 li ol {
