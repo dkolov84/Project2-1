@@ -194,7 +194,7 @@ nav {
     display:block;
     font-size:16px;
     line-height:16px;
-    background:#D95B43;
+    background:#4eb8e8;
     border:1px solid #542437;
     color:#542437;
     text-shadow:1px 1px 1px rgba(255,255,255,0.3);
@@ -205,7 +205,7 @@ nav {
     -moz-transition: all .2s ease-out;
 }
 .accordion ul li label:hover, .accordion [type=radio]:checked ~ label, .accordion [type=checkbox]:checked ~ label {
-    background:#C02942;
+    background:#4fc3f7;
     color:#FFF;
     text-shadow:1px 1px 1px rgba(0,0,0,0.5)
 }
